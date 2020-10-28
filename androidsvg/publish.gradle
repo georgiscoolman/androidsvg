@@ -36,8 +36,8 @@ publishing {
         maven {
             url = version.endsWith('SNAPSHOT') ? snapshotRepoUrl : releaseRepoUrl
             credentials {
-                username project.sonatypeUsername
-                password project.sonatypePassword
+                username ""
+                password ""
             }
         }
     }
